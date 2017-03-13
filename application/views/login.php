@@ -41,6 +41,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div id="container">
 	<h1>Welcome to the Wooden Nickel Login Page!  Whoop Whoop!</h1>
+
+
+    <?php
+    echo form_open();
+    
+    echo "<p>";
+    echo form_input('');
+    echo"</p>";
+
+    echo form_close();
+    ?>
+
+
+
+
+
 </div>
 
 </body>
