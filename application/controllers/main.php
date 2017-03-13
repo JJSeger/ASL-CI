@@ -31,6 +31,10 @@ class Main extends CI_Controller {
 
     public function login_validation(){
 
+	    $this->load->library('form_validation');
+	    $this->form_validation->set_rules('email','Email','required');
+        $this->form_validation->set_rules('password','Password','required|md5');
+
     }
 
 
