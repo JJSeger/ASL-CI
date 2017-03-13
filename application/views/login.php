@@ -45,9 +45,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <?php
     echo form_open();
-    
+
+    echo "<p>Email:";
+    echo form_input('email');
+    echo"</p>";
+
+    echo "<p>Password:";
+    echo form_password('password');
+    echo"</p>";
+
     echo "<p>";
-    echo form_input('');
+    echo form_submit('login_submit', 'Login');
     echo"</p>";
 
     echo form_close();
