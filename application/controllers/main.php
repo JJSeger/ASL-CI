@@ -20,6 +20,12 @@ class Main extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('login');
+        $this->login();
 	}
+
+
+
+	public function login(){
+        $this->load->view('login');
+    }
 }
