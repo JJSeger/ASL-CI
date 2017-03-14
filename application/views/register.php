@@ -31,7 +31,7 @@
                 padding-top: 5%;
                 text-align: center;
                 margin-left:38%;
-                height:20em;
+                height:auto;
                 width:25%;
                 background-color: lightslategray;
                 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -49,6 +49,7 @@
 
             #but{
                 margin-top: 9%;
+                margin-bottom: 4%;
                 color:white;
                 font-size:larger;
                 text-align: center;
