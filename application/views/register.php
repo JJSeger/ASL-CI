@@ -37,7 +37,9 @@
                 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             }
 
-            input{font-size: x-large;
+            input{
+                width:80%;
+                font-size: x-large;
                 height:1em;
                 width:5em:
             }
@@ -65,7 +67,11 @@
     <body>
         <h1>Welcome to the Wooden Nickel Registration Page:</h1>
         <p>Fill in the details to register</p>
+        <?php if(isset($_SESSION['success'])){?>
+            <div class="alert alert-success"><?php echo $_SESSION['success']; ?></div>
+        <?php
 
+        } ?>
         <div id="div1" class="col-lg-8 col-lg-offset-2">
             <?php echo validation_errors('<div class="alert alert-danger">', '</div>'); ?>
             <form action="" method="POST">
