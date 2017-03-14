@@ -14,7 +14,7 @@ class Main extends CI_Controller {
         $this->load->view('members');
     }
 
-
+        //this validates the login
     public function login_validation(){
 
 	    $this->load->library('form_validation');
@@ -31,10 +31,18 @@ class Main extends CI_Controller {
 
     }
 
-
+        //this validates the login credentials and sets the message that is thrown if there is a login error
     public function validate_credentials(){
+        $this->load->model('model_users');
 
+        if ($this->model_users->can_log_in()){
+            return true;
 
+        }else{
+            $this->form_validation->set_message('validation_credentials','Incorrect username/password.');
+            return false;
+
+        }
 
     }
 
