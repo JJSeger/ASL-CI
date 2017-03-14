@@ -1,5 +1,4 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Main extends CI_Controller {
 
@@ -20,7 +19,7 @@ class Main extends CI_Controller {
 
 	    $this->load->library('form_validation');
 
-	    $this->form_validation->set_rules('email','Email','required|trim|xss_clean');
+	    $this->form_validation->set_rules('email','Email','required|trim|xss_clean|callback_validate_credentials');
         $this->form_validation->set_rules('password','Password','required|md5|trim');
 
 
@@ -30,8 +29,8 @@ class Main extends CI_Controller {
             $this->load->view('login');
         }
 
-        echo $_POST['email'];
-        echo $_POST['password'];
+
+
 
 
     }
