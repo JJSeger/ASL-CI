@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: JuddHome
- * Date: 3/13/17
- * Time: 10:00 PM
- */
+
+
+
+class Auth extends CI_Controller{
+
+    public function login(){
+        echo 'Welcome to the Wooden Nickel Login Page';
+    }
+
+}
