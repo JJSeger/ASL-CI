@@ -66,7 +66,7 @@
         <p>Fill in the details to register</p>
 
         <div id="div1" class="col-lg-8 col-lg-offset-2">
-
+            <?php echo validation_errors('<div class="alert alert-danger">', '</div>'); ?>
             <form action="" method="POST">
                 <div class="form-group">
                     <label for="username">Username:</label><br>
@@ -105,7 +105,7 @@
                 </div>
 
                 <div  class="text-center">
-                    <button id="but" class="w3-btn">Register</button>
+                    <button id="but" class="btn btn-primary" name="register">Register</button>
                 </div>
             </form>
         </div>
