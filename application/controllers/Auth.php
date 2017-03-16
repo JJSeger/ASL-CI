@@ -21,8 +21,24 @@ class Auth extends CI_Controller{
 
             $user = $query->row();
             //if user exist
-            if($user->email){
-                $this->session->set_flashdata("error", "NO such account exists")
+            if($user->email) {
+
+                //temporary message
+                $this->session->set_flashdata("success", "You are logged in");
+
+                //set session variables
+
+                $_SESSION['user_logged'] = TRUE;
+                $_SESSION['username'] = $user->username;
+
+                //redirect to profile page
+
+                redirect("user/profile","refresh");
+            }else{
+                $this->session->set_flashdata("error", "NO such account exists in database");
+            redirect("Auth/login","refresh");
+
+
             }
         }
 
