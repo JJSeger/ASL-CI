@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Login Page</title>
+    <title>Profile Page</title>
 
     <!-- Bootstrap -->
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
@@ -65,33 +65,16 @@
     </style>
 </head>
 <body>
-<h1>Welcome to the Wooden Nickel Login Page:</h1>
-<p>Please fill in the details to login</p>
-<?php if(isset($_SESSION['success'])){?>
-    <div class="alert alert-success"><?php echo $_SESSION['success']; ?></div>
+<div id="div1" class="col-lg-8 col-lg-offset-2">
+    <h1>Welcome to your Wooden Nickel Profile Page:</h1>
+    <p>Please fill in the details to login</p>
+    <?php if(isset($_SESSION['success'])){?>
+        <div class="alert alert-success"><?php echo $_SESSION['success']; ?></div>
     <?php
 
-} ?>
-<div id="div1" class="col-lg-8 col-lg-offset-2">
-    <?php echo validation_errors('<div class="alert alert-danger">', '</div>'); ?>
-    <form action="" method="POST">
-        <div class="form-group">
-            <label for="username">Username:</label><br>
-            <input class="form-control" name="username" id="username" type="text">
-        </div>
+    } ?>
+    Hello, <?php echo $_SESSION['username']; ?>
 
-        <div class="form-group">
-            <label for="password" >Password:</label><br>
-            <input class="form-control" name="password" id="password" type="password">
-        </div>
-
-
-
-
-        <div  class="text-center">
-            <button id="but" class="btn btn-primary" name="login">Login</button>
-        </div>
-    </form>
 </div>
 
 

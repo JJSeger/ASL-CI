@@ -2,10 +2,10 @@
 
 
 
-class Auth extends CI_Controller{
+class Auth extends CI_Controller
+{
 
-    public function login()
-    {
+    public function login() {
         $this->form_validation->set_rules('username','Username','required');
         $this->form_validation->set_rules('password','Password','required|min_length[5]');
         if ($this->form_validation->run() == TRUE){
@@ -14,7 +14,7 @@ class Auth extends CI_Controller{
             $password = md5($_POST['password']);
             //check user in database
             $this->db->select('*');
-            $this->db->from('users');
+            $this->db->from('login');
             $this->db->where(array('username'=> $username, 'password' => $password));
             $query = $this->db->get();
 
@@ -36,7 +36,7 @@ class Auth extends CI_Controller{
                 redirect("user/profile","refresh");
             }else{
                 $this->session->set_flashdata("error", "NO such account exists in database");
-            redirect("Auth/login","refresh");
+            redirect("auth/login","refresh");
 
 
             }
@@ -56,21 +56,21 @@ class Auth extends CI_Controller{
 
             //if form validation true
             if ($this->form_validation->run() == TRUE){
-                echo 'Registration Confirmed';
+                echo 'Form Validated';
 
                     // add user in database
                 $data = array(
-                    'username'=>$_POST['username'],
-                    'email'=>$_POST['email'],
-                    'password'=>md5($_POST['password']),
-                    'gender'=>$_POST['gender'],
-                    'created_date'=> date('Y-m-d'),
-                    'phone'=>$_POST['phone']
+                    'username' => $_POST['username'],
+                    'email' => $_POST['email'],
+                    'password' => md5($_POST['password']),
+                    'gender' => $_POST['gender'],
+                    'created_date' => date('Y-m-d'),
+                    'phone' => $_POST['phone']
                 );
                 $this->db->insert('login',$data);
 
                 $this->session->set_flashdata("success", "Your account has been registered. You can now login");
-                redirect("auth/register", "refresh");
+                header("Location:http://localhost:8888/ASL-CI/index.php/auth/login");
 
             }
         }
