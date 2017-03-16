@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Registration Page</title>
+    <title>Login Page</title>
 
     <!-- Bootstrap -->
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
@@ -65,8 +65,8 @@
     </style>
 </head>
 <body>
-<h1>Welcome to the Wooden Nickel Registration Page:</h1>
-<p>Fill in the details to register</p>
+<h1>Welcome to the Wooden Nickel Login Page:</h1>
+<p>Please fill in the details to login</p>
 <?php if(isset($_SESSION['success'])){?>
     <div class="alert alert-success"><?php echo $_SESSION['success']; ?></div>
     <?php
