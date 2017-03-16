@@ -26,7 +26,7 @@
             text-align: center;
             background-color: white;
         }
-        #div1{
+        form{
             font-size: x-large;
             padding-top: 5%;
             text-align: center;
@@ -65,7 +65,7 @@
     </style>
 </head>
 <body>
-<div id="div1" class="col-lg-8 col-lg-offset-2">
+<div class="col-lg-8 col-lg-offset-2">
     <h1>Welcome to the Wooden Nickel Registration Page:</h1>
     <p>Fill in the details to register</p>
 
