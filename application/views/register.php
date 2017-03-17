@@ -126,7 +126,7 @@
         </div>
     </form>
 </div>
-
+<a href="http://localhost:8888/ASL-CI/index.php/auth/login">I'm already a member</a>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

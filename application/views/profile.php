@@ -65,9 +65,17 @@
     </style>
 </head>
 <body>
+
+<h1>Welcome to your Wooden Nickel Profile Page:</h1>
 <div id="div1" class="col-lg-8 col-lg-offset-2">
-    <h1>Welcome to your Wooden Nickel Profile Page:</h1>
-    <p>Please fill in the details to login</p>
+
+
+
+
+
+
+
+
     <?php if(isset($_SESSION['success'])){?>
         <div class="alert alert-success"><?php echo $_SESSION['success']; ?></div>
     <?php
@@ -77,8 +85,10 @@
 
     <br><br>
 
-    <a href="<?php echo base_url(); ?>auth/logout">Logout</a>
+
 </div>
+
+<a href="http://localhost:8888/ASL-CI/index.php/auth/login">Logout</a>
 
 
 

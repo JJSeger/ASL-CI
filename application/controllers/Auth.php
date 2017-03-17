@@ -6,10 +6,17 @@ class Auth extends CI_Controller
 {
 
 
-    public function logout(){
+    /*public function logout()
+    {
 
-        
-    }
+        unset($_SESSION);
+        session_destroy();
+        header("Location:http://localhost:8888/ASL-CI/index.php/auth/login");
+
+
+
+
+    }*/
 
 
 

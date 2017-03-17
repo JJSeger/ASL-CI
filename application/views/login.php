@@ -91,9 +91,10 @@
         <div  class="text-center">
             <button id="but" class="btn btn-primary" name="login">Login</button>
         </div>
+
     </form>
 </div>
-
+<a href="http://localhost:8888/ASL-CI/index.php/auth/register">I need to Register</a>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
