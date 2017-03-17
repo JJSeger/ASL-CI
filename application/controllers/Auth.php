@@ -33,10 +33,10 @@ class Auth extends CI_Controller
 
                 //redirect to profile page
 
-                redirect("user/profile","refresh");
+                header("Location:http://localhost:8888/ASL-CI/index.php/user/profile");
             }else{
                 $this->session->set_flashdata("error", "NO such account exists in database");
-            redirect("auth/login","refresh");
+                header("Location:http://localhost:8888/ASL-CI/index.php/auth/login");
 
 
             }
