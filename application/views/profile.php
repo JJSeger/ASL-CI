@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Profile Page</title>
+    <title>Members Page</title>
 
     <!-- Bootstrap -->
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
@@ -29,12 +29,7 @@
         }
 
 
-        input{
-            width:80%;
-            font-size: x-large;
-            height:1em;
-            width:5em:
-        }
+
         select{font-size: x-large;
             height:1.3em;
             width:5em:
@@ -56,6 +51,9 @@
             margin-top: .8%;
         }
 
+        #vid6{
+            margin-bottom: 3%;
+        }
     </style>
 </head>
 <body>
@@ -70,7 +68,7 @@
     <?php
 
     } ?>
-    Hello, <?php echo $_SESSION['username']; ?>! This is your profile page. Please feel free to view
+    Hello, <?php echo $_SESSION['username']; ?>! This is your members only page. Please feel free to view
     any of our in house movies or you can browse any of our premium titles within the members only store.
     Thank you and welcome!!
 
@@ -80,7 +78,7 @@
 </div>
 
 <a href="http://localhost:8888/ASL-CI/index.php/auth/login">Logout</a><br>
-<h2>Wooden Nickel In House Movies<br>
+<h2>Wooden Nickel In House Movies<br></h2>
     <!----------------------Embedded videos------------------------->
     <iframe id="vid1" width="541" height="315" src="https://www.youtube.com/embed/FxLOloOPCZI" frameborder="0" allowfullscreen></iframe>
     <iframe id="vid2" width="541" height="315" src="https://www.youtube.com/embed/6qpudAhYhpc" frameborder="0" allowfullscreen></iframe>
@@ -89,8 +87,10 @@
     <iframe id="vid4" width="541" height="315" src="https://www.youtube.com/embed/K5mnqxwErTk" frameborder="0" allowfullscreen></iframe>
     <iframe id="vid5" width="541" height="315" src="https://www.youtube.com/embed/OtzhxdK6Iuw" frameborder="0" allowfullscreen></iframe>
     <iframe id="vid6" width="541" height="315" src="https://www.youtube.com/embed/tfTaplg8n0I" frameborder="0" allowfullscreen></iframe><br>
+<section>
+    <button><image href="" height="250" width="150" ></button>
+</section>
 
-</h2>
 
 
 

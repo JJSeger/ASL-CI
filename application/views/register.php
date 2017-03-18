@@ -73,7 +73,7 @@
 <body>
 <div class="col-lg-8 col-lg-offset-2">
     <h1>Welcome to the Wooden Nickel Registration Page:</h1>
-    <p>Fill in the details to register</p>
+    <p>Fill in the details to become a member</p>
 
 
 
