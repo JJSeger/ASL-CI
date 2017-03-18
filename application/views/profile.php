@@ -40,31 +40,28 @@
             width:5em:
         }
 
-
-        #but{
-            margin-top: 9%;
-            margin-bottom: 4%;
-            color:white;
-            font-size:larger;
-            text-align: center;
-            background-color:#2b669a;
+        #vid1,#vid4{
+            margin-left: .1%;
+            float:left;
         }
-        #but:hover {
-            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-        }{
-
+        #vid2,#vid5{
+            margin-left: .8%;
+            float:left;
         }
+        #vid3,#vid6{
+
+            float:right;
+        }
+        #vid4,#vid5,#vid6{
+            margin-top: .8%;
+        }
+
     </style>
 </head>
 <body>
 
 <h1> The Wooden Nickel Profile Page:</h1>
 <div id="div1" class="col-lg-8 col-lg-offset-2">
-
-
-
-
-
 
 
 
@@ -82,7 +79,27 @@
 
 </div>
 
-<a href="http://localhost:8888/ASL-CI/index.php/auth/login">Logout</a>
+<a href="http://localhost:8888/ASL-CI/index.php/auth/login">Logout</a><br>
+<h2>Wooden Nickel In House Movies<br>
+
+
+    <iframe id="vid1" width="541" height="315" src="https://www.youtube.com/embed/FxLOloOPCZI" frameborder="0" allowfullscreen></iframe>
+    <iframe id="vid2" width="541" height="315" src="https://www.youtube.com/embed/6qpudAhYhpc" frameborder="0" allowfullscreen></iframe>
+    <iframe id="vid3" width="541" height="315" src="https://www.youtube.com/embed/RMx8FIT89tA" frameborder="0" allowfullscreen></iframe><br>
+
+    <iframe id="vid4" width="541" height="315" src="https://www.youtube.com/embed/K5mnqxwErTk" frameborder="0" allowfullscreen></iframe>
+    <iframe id="vid5" width="541" height="315" src="https://www.youtube.com/embed/OtzhxdK6Iuw" frameborder="0" allowfullscreen></iframe>
+    <iframe id="vid6" width="541" height="315" src="https://www.youtube.com/embed/tfTaplg8n0I" frameborder="0" allowfullscreen></iframe><br>
+
+</h2>
+
+
+
+
+
+
+
+
 
 
 
