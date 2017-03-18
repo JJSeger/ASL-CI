@@ -81,8 +81,7 @@
 
 <a href="http://localhost:8888/ASL-CI/index.php/auth/login">Logout</a><br>
 <h2>Wooden Nickel In House Movies<br>
-
-
+    <!----------------------Embedded videos------------------------->
     <iframe id="vid1" width="541" height="315" src="https://www.youtube.com/embed/FxLOloOPCZI" frameborder="0" allowfullscreen></iframe>
     <iframe id="vid2" width="541" height="315" src="https://www.youtube.com/embed/6qpudAhYhpc" frameborder="0" allowfullscreen></iframe>
     <iframe id="vid3" width="541" height="315" src="https://www.youtube.com/embed/RMx8FIT89tA" frameborder="0" allowfullscreen></iframe><br>
