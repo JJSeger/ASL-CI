@@ -48,7 +48,9 @@
             width:5em:
         }
 
-
+        a{
+            margin-top: 2%;
+        }
         #but{
             margin-top: 9%;
             margin-bottom: 4%;

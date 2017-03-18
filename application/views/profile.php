@@ -27,16 +27,7 @@
             text-align: center;
             background-color: white;
         }
-        #div1{
-            font-size: x-large;
-            padding-top: 5%;
-            text-align: center;
-            margin-left:38%;
-            height:auto;
-            width:25%;
-            background-color: lightslategray;
-            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-        }
+
 
         input{
             width:80%;
@@ -67,7 +58,7 @@
 </head>
 <body>
 
-<h1>Welcome to your Wooden Nickel Profile Page:</h1>
+<h1> The Wooden Nickel Profile Page:</h1>
 <div id="div1" class="col-lg-8 col-lg-offset-2">
 
 
@@ -82,7 +73,9 @@
     <?php
 
     } ?>
-    Hello, <?php echo $_SESSION['username']; ?>
+    Hello, <?php echo $_SESSION['username']; ?>! This is your profile page. Please feel free to view
+    any of our in house movies or you can browse any of our premium titles within the members only store.
+    Thank you and welcome!!
 
     <br><br>
 
