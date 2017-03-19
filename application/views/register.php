@@ -19,7 +19,11 @@
     <![endif]-->
 
     <style>
-
+        a{
+            margin-left: 1%;
+        }
+        }
+        }
         p{
             font-size: large;
             font-weight: 300;
@@ -38,6 +42,7 @@
             height:auto;
             width:25%;
             background-color: lightslategray;
+            margin-bottom: 2%;
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
 
@@ -51,9 +56,7 @@
             height:1.3em;
             width:5em:
         }
-        a{
-            margin-top: 2%;
-        }
+        
 
         #but{
             margin-top: 9%;
@@ -65,9 +68,9 @@
         }
         #but:hover {
            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-       }{
+       {
 
-       }
+
     </style>
 </head>
 <body>

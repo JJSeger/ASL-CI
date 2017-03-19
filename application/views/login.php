@@ -18,6 +18,10 @@
     <![endif]-->
 
     <style>
+        a{
+            margin-top: 4%;
+        }
+
         p{
             font-size: large;
             font-weight: 300;
@@ -27,6 +31,7 @@
             background-color: white;
         }
         #div1{
+            margin-bottom: 2%;
             font-size: x-large;
             padding-top: 5%;
             text-align: center;
@@ -47,8 +52,10 @@
             height:1.3em;
             width:5em:
         }
+       
 
         a{
+            margin-left: 1%;
             margin-top: 2%;
         }
         #but{
@@ -96,7 +103,7 @@
 
     </form>
 </div>
-<a href="http://localhost:8888/ASL-CI/index.php/auth/register">I need to Register</a>
+<a id ="a1" href="http://localhost:8888/ASL-CI/index.php/auth/register">I need to Register</a>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
