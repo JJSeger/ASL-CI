@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,6 +20,17 @@
     <![endif]-->
 
     <style>
+
+
+        #div5{
+
+            text-align: center;
+            font-size: xx-large;
+
+            margin-right: auto;
+            margin-left: 29%;
+        }
+
         p{
             font-size: large;
             font-weight: 300;
@@ -54,58 +66,184 @@
         #vid6{
             margin-bottom: 3%;
         }
+
+        #vid5{
+            margin-bottom:1.5%;
+        }
+        img{
+            width:250px;
+            height:175px;
+        }
+        #but{
+            background-image: url("/assets/images/life.png");
+            margin-top:-.5%;
+            margin-bottom: 4%;
+            margin-right: ;
+            margin-left: .1%;
+            float: left;
+            text-align: center;
+            }
+        #but:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+        #but1{
+            background-image: url("/assets/images/life.png");
+            margin-top: -.5%;
+            margin-bottom: 4%;
+            margin-left: .6%;
+
+            float: left;
+            text-align: center;
+        }
+        #but1:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+
+
+
+        #but2{
+              background-image: url("/assets/images/life.png");
+              margin-top: -.5%;
+              margin-bottom: 4%;
+              margin-left: .6%;
+              float: left;
+              text-align: center;
+          }
+        #but2:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+
+
+
+        #but3{
+              background-image: url("/assets/images/life.png");
+              margin-top: -.5%;
+              margin-bottom: 4%;
+              margin-left: .6%;
+              float: left;
+              text-align: center;
+          }
+        #but3:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+
+
+        #but4{
+              background-image: url("/assets/images/life.png");
+              margin-top: -.5%;
+              margin-bottom: 4%;
+
+              margin-left: .6%;
+              float: left;
+              text-align: center;
+          }
+        #but4:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+
+
+
+        #but5{
+              background-image: url("/assets/images/life.png");
+              margin-top: -.5%;
+              margin-bottom: 4%;
+
+              margin-left: .6%;
+              float: right;
+              text-align: center;
+          }
+        #but5:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+
+
+
     </style>
 </head>
 <body>
 
-<h1> The Wooden Nickel Profile Page:</h1>
-<div id="div1" class="col-lg-8 col-lg-offset-2">
+    <h1> The Wooden Nickel Members Area:</h1>
+    <div id="div1" class="col-lg-8 col-lg-offset-2">
 
 
 
-    <?php if(isset($_SESSION['success'])){?>
-        <div class="alert alert-success"><?php echo $_SESSION['success']; ?></div>
-    <?php
+        <?php if(isset($_SESSION['success'])){?>
+            <div class="alert alert-success"><?php echo $_SESSION['success']; ?></div>
+        <?php
 
-    } ?>
-    Hello, <?php echo $_SESSION['username']; ?>! This is your members only page. Please feel free to view
-    any of our in house movies or you can browse any of our premium titles within the members only store.
-    Thank you and welcome!!
+        } ?>
+        Hello, <?php echo $_SESSION['username']; ?>! This is your members only page. Please feel free to view
+        any of our in house movies or you can browse any of our premium titles within the members only store.
+        Thank you and welcome!!
 
-    <br><br>
-
-
-</div>
-
-<a href="http://localhost:8888/ASL-CI/index.php/auth/login">Logout</a><br>
-<h2>Wooden Nickel In House Movies<br></h2>
-    <!----------------------Embedded videos------------------------->
-    <iframe id="vid1" width="541" height="315" src="https://www.youtube.com/embed/FxLOloOPCZI" frameborder="0" allowfullscreen></iframe>
-    <iframe id="vid2" width="541" height="315" src="https://www.youtube.com/embed/6qpudAhYhpc" frameborder="0" allowfullscreen></iframe>
-    <iframe id="vid3" width="541" height="315" src="https://www.youtube.com/embed/RMx8FIT89tA" frameborder="0" allowfullscreen></iframe><br>
-
-    <iframe id="vid4" width="541" height="315" src="https://www.youtube.com/embed/K5mnqxwErTk" frameborder="0" allowfullscreen></iframe>
-    <iframe id="vid5" width="541" height="315" src="https://www.youtube.com/embed/OtzhxdK6Iuw" frameborder="0" allowfullscreen></iframe>
-    <iframe id="vid6" width="541" height="315" src="https://www.youtube.com/embed/tfTaplg8n0I" frameborder="0" allowfullscreen></iframe><br>
-<section>
-    <button><image href="" height="250" width="150" ></button>
-</section>
+        <br><br>
 
 
+    </div>
 
+    <a href="http://localhost:8888/ASL-CI/index.php/auth/login">Logout</a><br>
+    <h2>Wooden Nickel In House Movies<br> </h2>
+        <!----------------------Embedded videos------------------------->
+        <iframe id="vid1" width="541" height="315" src="https://www.youtube.com/embed/FxLOloOPCZI" frameborder="0" allowfullscreen></iframe>
+        <iframe id="vid2" width="541" height="315" src="https://www.youtube.com/embed/6qpudAhYhpc" frameborder="0" allowfullscreen></iframe>
+        <iframe id="vid3" width="541" height="315" src="https://www.youtube.com/embed/RMx8FIT89tA" frameborder="0" allowfullscreen></iframe><br>
 
+        <iframe id="vid4" width="541" height="315" src="https://www.youtube.com/embed/K5mnqxwErTk" frameborder="0" allowfullscreen></iframe>
+        <iframe id="vid5" width="541" height="315" src="https://www.youtube.com/embed/OtzhxdK6Iuw" frameborder="0" allowfullscreen></iframe>
+        <iframe id="vid6" width="541" height="315" src="https://www.youtube.com/embed/tfTaplg8n0I" frameborder="0" allowfullscreen></iframe><br>
 
+   <br />
 
+    <div id="div5">Our Premium Titles</div><br />
 
+    <div  class="text-center">
+        <button id="but" class="btn btn-primary" name="but"><img src="/assets/images/life.png" /></button>
+    </div>
 
 
 
+    <div  class="text-center">
+        <button id="but1" class="btn btn-primary" name="but1"><img src="/assets/images/life.png" /></button>
+    </div>
 
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+    <div  class="text-center">
+        <button id="but2" class="btn btn-primary" name="but2"><img src="/assets/images/life.png" /></button>
+    </div>
+
+
+
+    <div  class="text-center">
+        <button id="but3" class="btn btn-primary" name="but3"><img src="/assets/images/life.png" /></button>
+    </div>
+
+
+
+    <div  class="text-center">
+        <button id="but4" class="btn btn-primary" name="but4"><img src="/assets/images/life.png" /></button>
+    </div>
+
+
+    <div  class="text-center">
+        <button id="but5" class="btn btn-primary" name="but5"><img src="/assets/images/life.png" /></button>
+    </div>
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 </body>
 </html>
