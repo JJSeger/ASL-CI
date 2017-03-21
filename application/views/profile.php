@@ -189,32 +189,7 @@
 
     <a href="http://localhost:8888/ASL-CI/index.php/auth/login">Logout</a><br>
     <h2>Wooden Nickel In House Movies<br> </h2>
-        <!----------------------this is the video player------------------------->
-
-<?php
-if(isset($_GET['id']))
-{
-    $id = $_GET['id'];
-    $query = mysql_query("SELECT * FROM 'videos' WHERE id='$id'");
-    while($row = mysql_fetch_assoc($query))
-    {
-        $name = $row['name'];
-        $url = $row['url'];
-    }
-
-    echo "You are watching " .$name."<br />";
-    echo "<video src='url' width='560' height='315'></video>";
-}
-else
-{
-    echo"Video List ";
-}
-
-?>
-
-    <!---This will get all available videos from database---->
-
-
+    
 
 
 
