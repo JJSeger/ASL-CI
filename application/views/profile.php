@@ -189,16 +189,21 @@
 
     <a href="http://localhost:8888/ASL-CI/index.php/auth/login">Logout</a><br>
     <h2>Wooden Nickel In House Movies<br> </h2>
-        <!----------------------Embedded videos------------------------->
-        <iframe id="vid1" width="541" height="315" src="https://www.youtube.com/embed/FxLOloOPCZI" frameborder="0" allowfullscreen></iframe>
-        <iframe id="vid2" width="541" height="315" src="https://www.youtube.com/embed/6qpudAhYhpc" frameborder="0" allowfullscreen></iframe>
-        <iframe id="vid3" width="541" height="315" src="https://www.youtube.com/embed/RMx8FIT89tA" frameborder="0" allowfullscreen></iframe><br>
+        <!----------------------upload movies from database------------------------->
 
-        <iframe id="vid4" width="541" height="315" src="https://www.youtube.com/embed/K5mnqxwErTk" frameborder="0" allowfullscreen></iframe>
-        <iframe id="vid5" width="541" height="315" src="https://www.youtube.com/embed/I1uRsYWetrc" frameborder="0" allowfullscreen></iframe>
-        <iframe id="vid6" width="541" height="315" src="https://www.youtube.com/embed/tfTaplg8n0I" frameborder="0" allowfullscreen></iframe><br>
 
-   <br />
+
+
+
+
+
+
+
+
+
+
+    
+
 
     <div id="div5">Our Premium Titles</div><br />
 
