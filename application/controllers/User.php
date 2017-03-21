@@ -14,7 +14,8 @@ class User extends CI_Controller
         }
 
     }
-
+        //This function confirms that the user is logged in
+        // -if not then the user is redirected to the login page
     public function profile()
     {
         if ($_SESSION['user_logged'] == FALSE ) {
