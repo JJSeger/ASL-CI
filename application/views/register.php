@@ -91,6 +91,17 @@
 
     <form action="" method="POST">
         <div class="form-group">
+            <label for="firstname">First Name:</label><br>
+            <input class="form-control" name="firstname" id="firstname" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="lastname">Last Name</label><br>
+            <input class="form-control" name="lastname" id="lastname" type="text">
+        </div>
+
+
+        <div class="form-group">
             <label for="username">Username:</label><br>
             <input class="form-control" name="username" id="username" type="text">
         </div>
