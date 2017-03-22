@@ -202,37 +202,7 @@
 
     <div id="div5">Our Premium Titles</div><br />
 
-    <div  class="text-center">
-        <button id="but" class="btn btn-primary" name="but"><img src="/assets/images/life.png" /></button>
-    </div>
-
-
-
-    <div  class="text-center">
-        <button id="but1" class="btn btn-primary" name="but1"><img src="/assets/images/life.png" /></button>
-    </div>
-
-
-    <div  class="text-center">
-        <button id="but2" class="btn btn-primary" name="but2"><img src="/assets/images/life.png" /></button>
-    </div>
-
-
-
-    <div  class="text-center">
-        <button id="but3" class="btn btn-primary" name="but3"><img src="/assets/images/life.png" /></button>
-    </div>
-
-
-
-    <div  class="text-center">
-        <button id="but4" class="btn btn-primary" name="but4"><img src="/assets/images/life.png" /></button>
-    </div>
-
-
-    <div  class="text-center">
-        <button id="but5" class="btn btn-primary" name="but5"><img src="/assets/images/life.png" /></button>
-    </div>
+                                        <!--Products--->
 
 
 
