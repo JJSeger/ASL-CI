@@ -151,10 +151,7 @@
 
 
         <!----Shopping Cart features------->
-        <div class="container" style=" padding:0;">
-            <div class="row" style="border: solid gray; float:left; margin-left: -45.5%; width: 35%; margin-top: -45%; height:20em; ">
-                <div class="col-md-4">
-                    <div class="cart-block">
+        
 
                         <img src="http://localhost:8888/ASL-CI/assets/images/logo.jpg" style="margin-top: 120%; margin-left:-22%; height: 20em; width: 30em; "/>
                     </div>
