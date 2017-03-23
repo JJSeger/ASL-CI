@@ -191,7 +191,7 @@
                         </tr>
                     </table>
                     <br>
-                    <p><button idclass="btn btn-default" type="submit">Update Cart</button>
+                    <p><button class="btn btn-default" type="submit">Update Cart</button>
                     <a class="btn btn-default" href="cart">Go To Cart</a></p>
                 </form>
             </div>
@@ -235,7 +235,7 @@
             <div class="col-md-4 game">
                 <div class="'movie-price">$20.99</div>
                 <a href="product.html">
-                    <img src="/assets/images/void.jpg"
+                    <img src="http://localhost:8888/ASL-CI/assets/images/void.jpg"/>
                 </a>
                 <div class="movie-title">
                     The Void
@@ -250,7 +250,7 @@
             <div class="col-md-4 game">
                 <div class="'movie-price">$20.99</div>
                 <a href="product.html">
-                    <img src="/assets/images/void.jpg"
+                    <img src="http://localhost:8888/ASL-CI/assets/images/ghost.jpg"/>
                 </a>
                 <div class="movie-title">
                     The Void
@@ -265,7 +265,7 @@
             <div class="col-md-4 game">
                 <div class="'movie-price">$20.99</div>
                 <a href="product.html">
-                    <img src="/assets/images/void.jpg"
+                    <img src="http://localhost:8888/ASL-CI/assets/images/norman.jpg"/>
                 </a>
                 <div class="movie-title">
                     The Void
@@ -280,7 +280,7 @@
             <div class="col-md-4 game">
                 <div class="'movie-price">$20.99</div>
                 <a href="product.html">
-                    <img src="/assets/images/void.jpg"
+                    <img src="http://localhost:8888/ASL-CI/assets/images/captain.jpg"/>
                 </a>
                 <div class="movie-title">
                     The Void
@@ -295,7 +295,7 @@
             <div class="col-md-4 game">
                 <div class="'movie-price">$20.99</div>
                 <a href="product.html">
-                    <img src="/assets/images/void.jpg"
+                    <img src="http://localhost:8888/ASL-CI/assets/images/disme.jpg"/>
                 </a>
                 <div class="movie-title">
                     The Void
@@ -311,7 +311,7 @@
             <div class="col-md-4 game">
                 <div class="'movie-price">$20.99</div>
                 <a href="product.html">
-                    <img src="/assets/images/void.jpg"
+                    <img src="http://localhost:8888/ASL-CI/assets/images/life.jpg"/>
                 </a>
                 <div class="movie-title">
                     The Void
