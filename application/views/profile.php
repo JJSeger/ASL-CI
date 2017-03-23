@@ -18,15 +18,28 @@
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+
+
     <![endif]-->
 
     <style>
 
 
-
-
         p {
-            font-size: large;
+            text-align: center;
+
+            font-size: x-large;
+            font-weight: 300;
+        }
+        #p1 {
+            margin-top: -1%;
+            text-align: center;
+            font-size: small;
             font-weight: 300;
         }
 
@@ -58,6 +71,7 @@
 
         #vid4, #vid5, #vid6 {
             margin-top: .8%;
+
         }
 
         #vid6 {
@@ -75,53 +89,14 @@
 
 
 
-        #input1 {
-            margin-left: 18%;
-            text-align: center;
-            font-size: xx-large;
-            height: auto;
-            width: 10em;
-            float: left;
-            display: inline;
-
-        }
-
-        #input2 {
-            margin-left: 1%;
-            margin-top: -1.3%;
-            text-align: center;
-            font-size: xx-large;
-            float: left;
-            height: auto;
-            width: 10em;
-            display: inline;
-        }
-        section{
+        section {
             margin-left: 0;
             margin-right: 0;
             padding-top: 2%;
             height: 9em;
             width: 100%;
-            background-color:#e5ebeb;
+            background-color: #e5ebeb;
         }
-
-        #but {
-            height: auto;
-            width: 5em;
-            float: left;
-            margin-left: 1%;
-            margin-top: -2.8%;
-            color: white;
-            font-size: xx-large;
-            text-align: center;
-            background-color: #2b669a;
-        }
-
-        #but:hover {
-            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-
-        {
-
 
 
 
@@ -129,13 +104,6 @@
     </style>
 </head>
 <body>
-<section>
-    <input id="input1" name="username" type="text" placeholder="Enter Username">
-    <br/>
-    <input id="input2" name="password" type="password" placeholder="Enter Password">
-    <br/>
-    <button id="but" name="submit" type="submit" class="btn btn-default">Login</button>
-</section>
 
 
 <h1> The Wooden Nickel Members Area:</h1>
@@ -158,7 +126,8 @@
 
 <a href="http://localhost:8888/ASL-CI/index.php/auth/login">Logout</a><br>
 <h2>Wooden Nickel In House Movies<br></h2>
-<!----------------------Embedded videos------------------------->
+<!----------------------Embedded videos----------------------->
+
 <iframe id="vid1" width="541" height="315" src="https://www.youtube.com/embed/FxLOloOPCZI" frameborder="0"
         allowfullscreen></iframe>
 <iframe id="vid2" width="541" height="315" src="https://www.youtube.com/embed/6qpudAhYhpc" frameborder="0"
@@ -173,11 +142,140 @@
         allowfullscreen></iframe>
 <iframe id="vid6" width="541" height="315" src="https://www.youtube.com/embed/tfTaplg8n0I" frameborder="0"
         allowfullscreen></iframe>
-<br>
+
+
+<!---------Categories section---------->
+
+<div class="panel panel-default panel-list"
+     style=" font-size: xx-large; float: left; width:25%; margin-left:3%; margin-top: 2%; ">
+    <div class="panel-heading panel-heading-dark">
+        <h3 class="panel-title">
+            Categories
+        </h3>
+    </div>
+    <!-----List Group-------->
+
+    <ul class="list-group">
+        <li class="list-group-item"><a href="#">Horror</a></li>
+        <li class="list-group-item"><a href="#">Action</a></li>
+        <li class="list-group-item"><a href="#">Drama</a></li>
+        <li class="list-group-item"><a href="#">Comedy</a></li>
+        <li class="list-group-item"><a href="#">Mystery</a></li>
+    </ul>
+
+</div>
+
+
+<!----------Premium products-------->
+
+<div class="panel panel-default" style="width:64%; float:right; margin-right: 3%; margin-top:.5%">
+    <div class="panel-heading panel-heading-dark">
+        <h3 class="panel-title">Our Premium Titles</h3>
+    </div>
+    <div class="panel-body" style="width:98%; float:right; margin-top:3%; ">
+        <div class="row">
+
+
+            <div class="col-md-4 game">
+
+
+                    <img src="http://localhost:8888/ASL-CI/assets/images/void.jpg"
+                         style=" height: 25em; width: 20em; "/>
+                </a>
+                <div class="movie-title">
+                    The Void
+                </div>
+                <div class="'movie-price">$18.99</div>
+                <div class="movie-add">
+                    <button class="btn btn-primary" type="submit">Add To Cart</button>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 game">
+
+
+                    <img src="http://localhost:8888/ASL-CI/assets/images/ghost.jpg"
+                         style=" height: 25em; width: 20em; "/>
+                </a>
+                <div class="movie-title">
+                    Ghost in the Shell
+                </div>
+                <div class="'movie-price">$20.99</div>
+                <div class="movie-add">
+                    <button class="btn btn-primary" type="submit">Add To Cart</button>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 game">
+
+
+                    <img src="http://localhost:8888/ASL-CI/assets/images/norman.jpg"
+                         style=" height: 25em; width: 20em; "/>
+                </a>
+                <div class="movie-title">
+                    Norman
+                </div>
+                <div class="'movie-price">$15.99</div>
+                <div class="movie-add">
+                    <button class="btn btn-primary" type="submit">Add To Cart</button>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 game" style="margin-top: 2%;">
+
+
+                    <img src="http://localhost:8888/ASL-CI/assets/images/captain.jpg"
+                         style=" height: 25em; width: 20em; "/>
+                </a>
+                <div class="movie-title">
+                    Captain Underpants: The First Epic Movie
+                </div>
+                <div class="'movie-price">$10.99</div>
+                <div class="movie-add">
+                    <button class="btn btn-primary" type="submit">Add To Cart</button>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 game" style=" margin-top: 2%;" >
+
+
+            <img src="http://localhost:8888/ASL-CI/assets/images/disme.jpg" style=" height: 25em; width: 20em; "/>
+            </a>
+            <div class="movie-title">
+                Despicable Me 3
+            </div>
+            <div class="'movie-price">$10.99</div>
+            <div class="movie-add">
+                <button class="btn btn-primary" type="submit">Add To Cart</button>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 game" style=" margin-top: 2%;" >
+
+
+        <img src="http://localhost:8888/ASL-CI/assets/images/life.jpg" style=" height: 25em; width: 20em; "/>
+        </a>
+        <div class="movie-title">
+            Life
+        </div>
+        <div class="'movie-price">$17.99</div>
+        <div class="movie-add">
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+        </div>
+    </div>
+
+</div>
 
 <br/>
-<div class="container">
-    <div class="row">
+
+<!----Shopping Cart features------->
+<div class="container" style=" padding:0;">
+    <div class="row" style="border: solid gray; float:left; margin-left: -45.5%; width: 35%; margin-top: -45%; height:20em; ">
         <div class="col-md-4">
             <div class="cart-block">
                 <form action="cart/update" method="post">
@@ -194,9 +292,11 @@
                         </tr>
                     </table>
                     <br>
-                    <p><button class="btn btn-default" type="submit">Update Cart</button>
-                    <a class="btn btn-default" href="cart">Go To Cart</a></p>
+                    <p>
+                        <button class="btn btn-default" type="submit">Update Cart</button>
+                        <a class="btn btn-default" href="cart">Go To Cart</a></p>
                 </form>
+                <img src="http://localhost:8888/ASL-CI/assets/images/logo.jpg" style="margin-top: 120%; margin-left:-22%; height: 20em; width: 30em; "/>
             </div>
         </div>
     </div>
@@ -205,147 +305,16 @@
 
 
 
-<div class="panel panel-default panel-list">
-    <div class="panel-heading panel-heading-dark">
-        <h3 class="panel-title">
-            Categories
-        </h3>
-    </div>
-                    <!-----List Group-------->
 
-    <ul class="list-group">
-        <li class="list-group-item"> <a href="#">Horror</a></li>
-        <li class="list-group-item"> <a href="#">Action</a></li>
-        <li class="list-group-item"> <a href="#">Drama</a></li>
-        <li class="list-group-item"> <a href="#">Comedy</a></li>
-        <li class="list-group-item"> <a href="#">Mystery</a></li>
-    </ul>
-
-</div>
-
-
-                            <!----------Premium products-------->
-
-<div class="panel panel-default">
-    <div class="panel-heading panel-heading-dark">
-        <h3 class="panel-title">Our Premium Titles</h3>
-    </div>
-    <div class="panel-body">
-        <div class="row">
+</body><br>
 
 
 
-            <div class="col-md-4 game" >
+<footer>
+    <p id="p1">The Wooden Nickel est.2017, All Rights Reserved</p>
 
-                <a href="product.html">
-                    <img src="http://localhost:8888/ASL-CI/assets/images/void.jpg" style=" height: 25em; width: 20em; "/>
-                </a>
-                <div class="movie-title">
-                    The Void
-                </div><div class="'movie-price">$20.99</div>
-                <div class="movie-add">
-                    <button class="btn btn-primary" type="submit">Add To Cart</button>
-                </div>
-            </div>
+</footer>
 
-
-
-            <div class="col-md-4 game">
-
-                <a href="product.html">
-                    <img src="http://localhost:8888/ASL-CI/assets/images/ghost.jpg" style=" height: 25em; width: 20em; "/>
-                </a>
-                <div class="movie-title">
-                    The Void
-                </div><div class="'movie-price">$20.99</div>
-                <div class="movie-add">
-                    <button class="btn btn-primary" type="submit">Add To Cart</button>
-                </div>
-            </div>
-
-
-
-            <div class="col-md-4 game">
-
-                <a href="product.html">
-                    <img src="http://localhost:8888/ASL-CI/assets/images/norman.jpg" style=" height: 25em; width: 20em; "/>
-                </a>
-                <div class="movie-title">
-                    The Void
-                </div><div class="'movie-price">$20.99</div>
-                <div class="movie-add">
-                    <button class="btn btn-primary" type="submit">Add To Cart</button>
-                </div>
-            </div>
-
-
-
-            <div class="col-md-4 game" style=" margin-top: 2%; ">
-
-                <a href="product.html">
-                    <img src="http://localhost:8888/ASL-CI/assets/images/captain.jpg" style=" height: 25em; width: 20em; "/>
-                </a>
-                <div class="movie-title">
-                    The Void
-                </div><div class="'movie-price">$20.99</div>
-                <div class="movie-add">
-                    <button class="btn btn-primary" type="submit">Add To Cart</button>
-                </div>
-            </div>
-
-
-
-            <div class="col-md-4 game" style=" margin-top: 2%; >
-
-                <a href="product.html">
-                    <img src="http://localhost:8888/ASL-CI/assets/images/disme.jpg" style=" height: 25em; width: 20em; "/>
-                </a>
-                <div class="movie-title">
-                    The Void
-                </div><div class="'movie-price">$20.99</div>
-                <div class="movie-add">
-                    <button class="btn btn-primary" type="submit">Add To Cart</button>
-                </div>
-            </div>
-
-
-
-
-            <div class="col-md-4 game" style=" margin-top: 2%; >
-
-                <a href="product.html">
-                    <img src="http://localhost:8888/ASL-CI/assets/images/life.jpg" style=" height: 25em; width: 20em; "/>
-                </a>
-                <div class="movie-title">
-                    The Void
-                </div><div class="'movie-price">$20.99</div>
-                <div class="movie-add">
-                    <button class="btn btn-primary" type="submit">Add To Cart</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-
-
-</div>
-
-
-
-
-
-<br/>
-
-<!--Products--->
-
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-</body>
 </html>
 
 
