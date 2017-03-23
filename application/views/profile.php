@@ -317,7 +317,7 @@
                     <br>
                     <p>
                         <button class="btn btn-default" type="submit" >Update Cart</button><br>
-                        <a  class="btn btn-default" href="http://localhost:8888/ASL-CI/user/cart" >Go To Cart</a></p>
+                        <a  class="btn btn-default" href="http://localhost:8888/ASL-CI/cart_cont/cart" >Go To Cart</a></p>
                 </form>
                 <img src="http://localhost:8888/ASL-CI/assets/images/logo.jpg" style="margin-top: 90%; margin-left:-22%; height: 20em; width: 30em; "/>
             </div>

@@ -1,7 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: JuddHome
- * Date: 3/23/17
- * Time: 6:40 PM
- */
+
+
+class cart_cont extends CI_Controller {
+
+    public function cart()
+    {
+        $this->load->view('cart');
+    }
+}
