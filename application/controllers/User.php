@@ -20,10 +20,11 @@ class User extends CI_Controller
     {
         if ($_SESSION['user_logged'] == FALSE ) {
             $this->session->set_flashdata("error", "Please login first to view this page");
-            header("Location:http://localhost:8888/ASL-CI/index.php/auth/login");
+            header("Location:http://localhost:8888/ASL-CI/auth/login");
 
         }
         $this->load->view('profile');
+
 
     }
 
