@@ -36,6 +36,7 @@
             font-size: x-large;
             font-weight: 300;
         }
+
         #p1 {
             margin-top: -1%;
             text-align: center;
@@ -87,8 +88,6 @@
             height: 175px;
         }
 
-
-
         section {
             margin-left: 0;
             margin-right: 0;
@@ -97,8 +96,6 @@
             width: 100%;
             background-color: #e5ebeb;
         }
-
-
 
 
     </style>
@@ -150,21 +147,115 @@
 </div>
 
 
-        <!----Shopping Cart features------->
-        
-
-                        <img src="http://localhost:8888/ASL-CI/assets/images/logo.jpg" style="margin-top: 120%; margin-left:-22%; height: 20em; width: 30em; "/>
-                    </div>
-                </div>
-            </div>
+<!----Shopping Cart features------->
+<div class="col-md-8">
+    <div class="panel panel-default">
+        <div class="panel-heading panel-heading-green">
+            <h3 class="panel-title">The Wooden Nickel</h3>
         </div>
+        <div class="panel-body">
+            <table class="table table-bordered">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Ghost in the Shell</td>
+                    <td>1</td>
+                    <td>$20.99</td>
+                </tr>
+
+                <tr>
+                    <td>The Void</td>
+                    <td>1</td>
+                    <td>$18.99</td>
+                </tr>
+
+                <tr>
+                    <td>Norman</td>
+                    <td>1</td>
+                    <td>$15.99</td>
+                </tr>
+
+                <tr>
+                    <td>Captain Underpants: The First Epic Movie</td>
+                    <td>1</td>
+                    <td>$10.99</td>
+                </tr>
+
+                <tr>
+                    <td>Despicable Me 3</td>
+                    <td>1</td>
+                    <td>$10.99</td>
+                </tr>
+
+                <tr>
+                    <td>Life</td>
+                    <td>1</td>
+                    <td>$17.99</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" class="cart-subtotal">
+                        $179.97
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" class="cart-shipping">
+                        $4.99
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" class="cart-total">
+                        $179.97
+                    </td>
+                </tr>
+            </table>
+
+            <h3>Shipping Info</h3>
+            <div class="form-group">
+                <label>Address</label>
+                <input type="text" class="form-control" name="address">
+            </div>
+
+            <div class="form-group">
+                <label>Address2</label>
+                <input type="text" class="form-control" name="address2">
+            </div>
+
+            <div class="form-group">
+                <label>City</label>
+                <input type="text" class="form-control" name="city">
+            </div>
+
+            <div class="form-group">
+                <label>State</label>
+                <input type="text" class="form-control" name="state">
+            </div>
+
+            <div class="form-group">
+                <label>Zipcode</label>
+                <input type="text" class="form-control" name="zipcode">
+            </div>
+
+            <p>
+                <button class="btn btn-primary" type="submit" name="submit">Checkout</button>
+            </p>
+
+        </div>
+    </div>
+</div>
 
 
+<img src="http://localhost:8888/ASL-CI/assets/images/logo.jpg"
+     style="margin-top: 120%; margin-left:-22%; height: 20em; width: 30em; "/>
 
-
-
-</body><br>
-
+</body>
+<br>
 
 
 <footer>
