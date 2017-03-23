@@ -23,7 +23,7 @@
     <style>
 
 
-        
+
 
         p {
             font-size: large;
@@ -229,13 +229,97 @@
     </div>
     <div class="panel-body">
         <div class="row">
-    <div class="col-md-4 game">
-        <div class="'game-price">$20.99</div>
-        <a href="product.html">
-            <img src=""
-        </a>
-    </div>
 
+
+
+            <div class="col-md-4 game">
+                <div class="'movie-price">$20.99</div>
+                <a href="product.html">
+                    <img src="/assets/images/void.jpg"
+                </a>
+                <div class="movie-title">
+                    The Void
+                </div>
+                <div class="movie-add">
+                    <button class="btn btn-primary" type="submit">Add To Cart</button>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4 game">
+                <div class="'movie-price">$20.99</div>
+                <a href="product.html">
+                    <img src="/assets/images/void.jpg"
+                </a>
+                <div class="movie-title">
+                    The Void
+                </div>
+                <div class="movie-add">
+                    <button class="btn btn-primary" type="submit">Add To Cart</button>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4 game">
+                <div class="'movie-price">$20.99</div>
+                <a href="product.html">
+                    <img src="/assets/images/void.jpg"
+                </a>
+                <div class="movie-title">
+                    The Void
+                </div>
+                <div class="movie-add">
+                    <button class="btn btn-primary" type="submit">Add To Cart</button>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4 game">
+                <div class="'movie-price">$20.99</div>
+                <a href="product.html">
+                    <img src="/assets/images/void.jpg"
+                </a>
+                <div class="movie-title">
+                    The Void
+                </div>
+                <div class="movie-add">
+                    <button class="btn btn-primary" type="submit">Add To Cart</button>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4 game">
+                <div class="'movie-price">$20.99</div>
+                <a href="product.html">
+                    <img src="/assets/images/void.jpg"
+                </a>
+                <div class="movie-title">
+                    The Void
+                </div>
+                <div class="movie-add">
+                    <button class="btn btn-primary" type="submit">Add To Cart</button>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-md-4 game">
+                <div class="'movie-price">$20.99</div>
+                <a href="product.html">
+                    <img src="/assets/images/void.jpg"
+                </a>
+                <div class="movie-title">
+                    The Void
+                </div>
+                <div class="movie-add">
+                    <button class="btn btn-primary" type="submit">Add To Cart</button>
+                </div>
+            </div>
 
         </div>
     </div>
