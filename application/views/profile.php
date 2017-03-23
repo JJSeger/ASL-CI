@@ -98,6 +98,29 @@
             background-color: #e5ebeb;
         }
 
+        #th1{
+            padding-left:1%;
+        }
+
+        #th2{
+            padding-left:45%;
+        }
+
+        #th3{
+            padding-left:45%;
+        }
+
+        #td1{
+            padding-left:45%;
+        }
+
+        #td2{
+            padding-left:45%;
+        }
+
+
+
+
 
 
 
@@ -275,28 +298,28 @@
 
 <!----Shopping Cart features------->
 <div class="container" style=" padding:0;">
-    <div class="row" style="border: solid gray; float:left; margin-left: -45.5%; width: 35%; margin-top: -45%; height:20em; ">
+    <div class="row" style="border: solid gray; float:left; margin-left: -45.5%; width: 35%; margin-top: -41.5%; height:15em; ">
         <div class="col-md-4">
             <div class="cart-block">
                 <form action="cart/update" method="post">
-                    <table cellpadding="6" cellspacing="1" style="width:100%" border="0">
+                    <table cellpadding="6" cellspacing="5" style="width:100%" border="0">
                         <tr>
-                            <th>QTY</th>
-                            <th>Item Description</th>
-                            <th style="text-align:right">Item Price</th>
+                            <th id="th1">QTY</th>
+                            <th id="th2">Item Description</th>
+                            <th id="th3"style="text-align:right">Item Price</th>
                         </tr>
                         <tr>
                             <td></td>
-                            <td class="right"><strong>Total</strong></td>
-                            <td class="right" style="text-align:right">$</td>
+                            <td id="td1" class="right"><strong>Total</strong></td>
+                            <td id="td2" class="right" style="text-align:right">$</td>
                         </tr>
                     </table>
                     <br>
                     <p>
-                        <button class="btn btn-default" type="submit">Update Cart</button>
-                        <a class="btn btn-default" href="cart">Go To Cart</a></p>
+                        <button class="btn btn-default" type="submit" >Update Cart</button><br>
+                        <a  class="btn btn-default" href="http://localhost:8888/ASL-CI/user/cart" >Go To Cart</a></p>
                 </form>
-                <img src="http://localhost:8888/ASL-CI/assets/images/logo.jpg" style="margin-top: 120%; margin-left:-22%; height: 20em; width: 30em; "/>
+                <img src="http://localhost:8888/ASL-CI/assets/images/logo.jpg" style="margin-top: 90%; margin-left:-22%; height: 20em; width: 30em; "/>
             </div>
         </div>
     </div>
