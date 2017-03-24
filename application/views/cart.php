@@ -55,34 +55,6 @@
             width: 5em:
         }
 
-        #vid1, #vid4 {
-            margin-left: .1%;
-            float: left;
-        }
-
-        #vid2, #vid5 {
-            margin-left: .8%;
-            float: left;
-        }
-
-        #vid3, #vid6 {
-
-            float: right;
-        }
-
-        #vid4, #vid5, #vid6 {
-            margin-top: .8%;
-
-        }
-
-        #vid6 {
-            margin-bottom: 3%;
-        }
-
-        #vid5 {
-            margin-bottom: 1.5%;
-        }
-
         img {
             width: 250px;
             height: 175px;
@@ -96,6 +68,8 @@
             width: 100%;
             background-color: #e5ebeb;
         }
+
+
 
 
     </style>
@@ -128,7 +102,7 @@
 <!---------Categories section---------->
 
 <div class="panel panel-default panel-list"
-     style=" font-size: xx-large; float: left; width:25%; margin-left:3%; margin-top: 2%; ">
+     style=" font-size: xx-large; float: left; width:25%; margin-left:3%; margin-top: .1%; ">
     <div class="panel-heading panel-heading-dark">
         <h3 class="panel-title">
             Categories
@@ -148,7 +122,7 @@
 
 
 <!----Shopping Cart features------->
-<div class="col-md-8">
+<div class="col-md-8" >
     <div class="panel panel-default">
         <div class="panel-heading panel-heading-green">
             <h3 class="panel-title">The Wooden Nickel</h3>
@@ -248,20 +222,16 @@
 
         </div>
     </div>
+    <p id="p1">The Wooden Nickel est.2017, All Rights Reserved</p>
 </div>
 
 
 <img src="http://localhost:8888/ASL-CI/assets/images/logo.jpg"
-     style="margin-top: 120%; margin-left:-22%; height: 20em; width: 30em; "/>
+     style="float:left; margin-left: 2.9%; margin-top: -20%; height: 20em; width: 30em; "/>
 
 </body>
 <br>
 
-
-<footer>
-    <p id="p1">The Wooden Nickel est.2017, All Rights Reserved</p>
-
-</footer>
 
 </html>
 
