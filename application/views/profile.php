@@ -191,6 +191,7 @@
 
 <!----------Premium products-------->
 
+
 <div class="panel panel-default" style="width:64%; float:right; margin-right: 3%; margin-top:.5%">
     <div class="panel-heading panel-heading-dark">
         <h3 class="panel-title">Our Premium Titles</h3>
@@ -199,12 +200,12 @@
         <div class="row">
 
 
-            <div class="col-md-4 game">
+            <div class="col-md-4 movie">
 
 
                     <img src="http://localhost:8888/ASL-CI/assets/images/void.jpg"
                          style=" height: 25em; width: 20em; "/>
-                </a>
+
                 <div class="movie-title">
                     The Void
                 </div>
@@ -215,12 +216,12 @@
             </div>
 
 
-            <div class="col-md-4 game">
+            <div class="col-md-4 movie">
 
 
                     <img src="http://localhost:8888/ASL-CI/assets/images/ghost.jpg"
                          style=" height: 25em; width: 20em; "/>
-                </a>
+
                 <div class="movie-title">
                     Ghost in the Shell
                 </div>
@@ -231,12 +232,12 @@
             </div>
 
 
-            <div class="col-md-4 game">
+            <div class="col-md-4 movie">
 
 
                     <img src="http://localhost:8888/ASL-CI/assets/images/norman.jpg"
                          style=" height: 25em; width: 20em; "/>
-                </a>
+
                 <div class="movie-title">
                     Norman
                 </div>
@@ -247,12 +248,12 @@
             </div>
 
 
-            <div class="col-md-4 game" style="margin-top: 2%;">
+            <div class="col-md-4 movie" style="margin-top: 2%;">
 
 
                     <img src="http://localhost:8888/ASL-CI/assets/images/captain.jpg"
                          style=" height: 25em; width: 20em; "/>
-                </a>
+
                 <div class="movie-title">
                     Captain Underpants: The First Epic Movie
                 </div>
@@ -263,11 +264,11 @@
             </div>
 
 
-            <div class="col-md-4 game" style=" margin-top: 2%;" >
+            <div class="col-md-4 movie" style=" margin-top: 2%;" >
 
 
             <img src="http://localhost:8888/ASL-CI/assets/images/disme.jpg" style=" height: 25em; width: 20em; "/>
-            </a>
+
             <div class="movie-title">
                 Despicable Me 3
             </div>
@@ -278,11 +279,11 @@
         </div>
 
 
-        <div class="col-md-4 game" style=" margin-top: 2%;" >
+        <div class="col-md-4 movie" style=" margin-top: 2%;" >
 
 
         <img src="http://localhost:8888/ASL-CI/assets/images/life.jpg" style=" height: 25em; width: 20em; "/>
-        </a>
+
         <div class="movie-title">
             Life
         </div>
